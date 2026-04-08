@@ -3,11 +3,17 @@ import { getDatabase,
          ref,
          push,
          onValue } from "https://www.gstatic.com/firebasejs/12.10.0/firebase-database.js"
-import { getAuth } from "firebase/auth"         
+import { getAuth } from "https://www.gstatic.com/firebasejs/12.10.0/firebase-auth.js"      
 
 const firebaseConfig = {
     
-    databaseURL: "https://natural-archives-leads-tracker-default-rtdb.firebaseio.com"
+    apiKey: "AIzaSyCFdOlyGUlePWpaFx-U-LZX2SfC-TRet5g",
+    authDomain: "natural-archives-leads-tracker.firebaseapp.com",
+    databaseURL: "https://natural-archives-leads-tracker-default-rtdb.firebaseio.com",
+    projectId: "natural-archives-leads-tracker",
+    storageBucket: "natural-archives-leads-tracker.firebasestorage.app",
+    messagingSenderId: "461625303152",
+    appId: "1:461625303152:web:94490820aac681dd60d4b5"
    
 }
 
